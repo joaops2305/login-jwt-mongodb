@@ -5,7 +5,6 @@ import bcrypt from 'bcrypt';
 
 dotenv.config();
 
-//Import Modelo Esquema do Usuario
 import Users from "../models/Usuarios-Schema.js";
 
 class UsersContollers{
@@ -71,6 +70,4 @@ class UsersContollers{
      }
 }
 
-const Usuarios = new UsersContollers();
-
-export default Usuarios; 
+export default new UsersContollers();
