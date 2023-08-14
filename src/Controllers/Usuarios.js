@@ -5,7 +5,6 @@ import bcrypt from 'bcrypt';
 
 dotenv.config();
 
-//Import Modelo Esquema do Usuario
 import Users from "../models/Usuarios-Schema.js";
 
 class UsersContollers{
